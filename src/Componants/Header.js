@@ -3,7 +3,7 @@ const Header = () => {
     return(
         <>
         <h1>
-            My header
+            My header new gfgggg
         </h1>
         </>
 
