@@ -215,7 +215,7 @@ const FoodCarousel = () => {
                   positionStyles = "absolute left-16 w-64 h-64 transform perspective-1000 -skew-x-12 z-10 opacity-70";
                   break;
                 case 'center':
-                  positionStyles = "absolute left-1/2 -translate-x-1/2 w-80 h-80 z-20";
+                  positionStyles = "absolute left-1/2 -translate-x-1/2 w-140 h-100 z-20";
                   break;
                 case 'right':
                   positionStyles = "absolute right-16 w-64 h-64 transform perspective-1000 skew-x-12 z-10 opacity-70";
@@ -303,8 +303,8 @@ const FoodCarousel = () => {
 
       {/* Recipe Popup */}
       {activePopup && activeSlide && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4">
-          <div className="bg-white rounded-lg shadow-xl w-full max-w-lg overflow-hidden relative">
+        <div className="fixed inset-0  bg-opacity-50 z-50 flex items-center justify-center p-4">
+          <div className="bg-white rounded-lg shadow-xl w-80 max-w-lg overflow-hidden relative">
             <button 
               onClick={handleClosePopup}
               className="absolute top-2 right-2 w-8 h-8 flex items-center justify-center rounded-full bg-gray-200 hover:bg-gray-300 z-10"
