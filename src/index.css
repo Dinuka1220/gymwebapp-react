@@ -66,3 +66,19 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+
+/* Add this to your index.css */
+.slick-slide {
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slick-center {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+.slick-slide:not(.slick-center) {
+  transform: scale(0.9);
+  opacity: 0.75;
+}
